@@ -1,0 +1,51 @@
+# ==========================================
+# YouTubeDownloader - Git Ignore
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Instaladores
+installer/
+Output/
+*_Setup.exe
+
+# Herramientas externas
+tools/*.exe
+
+# Archivos multimedia descargados
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.part
+*.ytdl
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
