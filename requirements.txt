@@ -1,0 +1,9 @@
+# Este proyecto utiliza únicamente módulos incluidos con Python.
+# No requiere paquetes adicionales mediante pip.
+#
+# Herramientas externas necesarias:
+# - yt-dlp
+# - FFmpeg
+#
+# Estas herramientas deben colocarse en la carpeta /tools
+# antes de compilar la aplicación.
